@@ -1,0 +1,19 @@
+.pagination{
+    display: flex;
+    margin: 10% 30%;
+}
+
+.page-item{
+    margin: 4%;
+}
+
+.page-item a{
+    text-decoration: none;
+    color: green;
+    padding: 90%;
+}
+.page-item a:hover{
+    color: white;
+    background: rgb(27, 54, 16);
+}
+
