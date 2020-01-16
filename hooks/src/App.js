@@ -31,7 +31,7 @@ const App = () => {
   }
   return (
     <div className="App">
-      <h1 className="text-primary">
+      <h1>
         My Blog
       </h1>
       <Posts posts={currentPosts} loading={loading} />
