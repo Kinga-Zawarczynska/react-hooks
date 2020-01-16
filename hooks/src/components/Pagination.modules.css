@@ -13,7 +13,14 @@
     padding: 90%;
 }
 .page-item a:hover{
+    color: rgb(6, 51, 21);
+    font-weight: bold;
+   
+}
+
+.page-item a:focus{
     color: white;
     background: rgb(27, 54, 16);
+    font-weight: bold;
 }
 
