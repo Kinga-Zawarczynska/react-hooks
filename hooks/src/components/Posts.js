@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styles from './Posts.modules.css'
 
 export const Posts = ({ posts, loading }) => {
     if(loading) {
@@ -9,12 +10,12 @@ export const Posts = ({ posts, loading }) => {
 
 
     return (
-        <ul className="list-group">
+        <div className="list-group">
             {posts.map(post => (
-                <li key={post.id} className="list-gropu-item">
+                <div key={post.id} className="list-group-item">
                     {post.title}
-                </li>
+                </div>
             ))}
-        </ul>
+        </div>
     )
 }
