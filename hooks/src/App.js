@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'
 import './App.css';
+import { Posts } from './components/Posts';
 
 const App = () => {
   const [posts, setPosts] = useState([]);
@@ -19,11 +20,13 @@ const App = () => {
     fetchPosts();
   }, []);
 
-  console.log(posts)
-
 
   return (
     <div className="App">
+      <h1 className="text-primary">
+        My Blog
+      </h1>
+      <Posts posts={posts} loading={loading} />
     
     </div>
   );
