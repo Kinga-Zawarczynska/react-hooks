@@ -3,22 +3,22 @@
     margin: 5% 30%;
 }
 
-.page-item{
+.pageItem{
     margin: 4%;
 }
 
-.page-item a{
+.pageItem a{
     text-decoration: none;
     color: green;
     padding: 90%;
 }
-.page-item a:hover{
+.pageItem a:hover{
     color: rgb(6, 51, 21);
     font-weight: bold;
    
 }
 
-.page-item a:focus{
+.pageItem a:focus{
     color: white;
     background: rgb(27, 54, 16);
     font-weight: bold;

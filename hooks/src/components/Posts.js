@@ -10,9 +10,9 @@ export const Posts = ({ posts, loading }) => {
 
 
     return (
-        <div className="list-group">
+        <div className="listGroup">
             {posts.map(post => (
-                <div key={post.id} className="list-group-item">
+                <div key={post.id} className="listGroupItem">
                     {post.title}
                 </div>
             ))}

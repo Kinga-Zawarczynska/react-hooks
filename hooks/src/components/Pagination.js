@@ -12,9 +12,9 @@ export const Pagination = ({postsPerPage, totalPosts, paginate}) => {
         <nav>
             <div className="pagination">
                 {pageNumbers.map(number => (
-                    <div key={number} className="page-item">
+                    <div key={number} className="pageItem">
                         <a onClick={() => {paginate(number)
-                        }} href="!#" className="page-link">
+                        }} href="!#" className="pageLink">
                             {number}
                             </a>                        
 
