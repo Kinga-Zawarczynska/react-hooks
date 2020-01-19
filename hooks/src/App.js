@@ -20,8 +20,7 @@ const App = () => {
 
     fetchPosts();
   }, []);
-
-  //getCurrentPosts
+  
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirtsPost = indexOfLastPost-postsPerPage;
   const currentPosts = posts.slice(indexOfFirtsPost, indexOfLastPost)
